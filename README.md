@@ -81,7 +81,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- [ ] Following the instructions in the `components/Carousel.js file`, create the Carousel component.
+- [√] Following the instructions in the `components/Carousel.js file`, create the Carousel component.
 - [ ] Render an error message on the page for the user, if the network request to fetch articles fails.
 - [ ] Use the tabs at the top of the page to filter articles by topic.
 
@@ -89,6 +89,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
+- [√] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [√] Add your team lead as a reviewer on the pull-request
+- [√] Your team lead will count the project as complete after receiving your pull-request
