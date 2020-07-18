@@ -33,7 +33,7 @@ axios
         for(let i in values){
             let value = values[i];
             for(i = 0; i < value.length; i++){
-                cardContent.append(ArticleMaker(value[i]));
+                cardContent.append(ContentMaker(value[i]));
             }
         }
     })
@@ -41,7 +41,7 @@ axios
         console.log('Alert Missing Data ', error);
     })
 
-function ArticleMaker(d){
+function ContentMaker(d){
     const card = document.createElement('div');
     card.classList.add('card');
 
@@ -68,9 +68,9 @@ function ArticleMaker(d){
 
     return card;
 }
-card = document.querySelector(".card");
-card.addEventListener('click', () => {
-    console.log(headline)
+card = document.querySelector(".headLine" (e));
+card.addEventListener('click', (e) => {
+    console.log(headLine)
 
     
 })
