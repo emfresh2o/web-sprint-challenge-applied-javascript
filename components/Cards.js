@@ -26,7 +26,7 @@ axios
     .then(response => {
         console.log(response);
         
-        // const keys = Object.keys(response.data.articles);
+
         const values = Object.values(response.data.articles);
         console.log(values);
         const cardContent = document.querySelector('.cards-container');
@@ -43,33 +43,32 @@ axios
 
 function ContentMaker(d){
     const card = document.createElement('div');
-    card.classList.add('card');
-
     const headLine = document.createElement('div');
-    headLine.textContent = d.headline;
-    headLine.classList.add('headline');
-    card.append(headLine);
-
     const author = document.createElement('div');
-    author.classList.add('author');
-    card.append(author);
-
     const imgCont = document.createElement('div');
-    imgCont.classList.add('img-container');
-    author.append(imgCont);
-
     const img = document.createElement('img');
-    img.src = d.authorPhoto;
-    imgCont.append(img);
-
     const authorSign = document.createElement('span');
-    authorSign.textContent = d.authorName;
+
+    card.classList.add('card');
+    headLine.classList.add('headline');
+    author.classList.add('author');
+    imgCont.classList.add('img-container');
+
+    card.append(headLine);
+    card.append(author);
+    author.append(imgCont);
+    imgCont.append(img);
     author.append(authorSign);
+
+    headLine.textContent = d.headline;
+    authorSign.textContent = d.authorName;
+
+    img.src = d.authorPhoto;
 
     return card;
 }
-card = document.querySelector(".headLine" (e));
-card.addEventListener('click', (e) => {
+
+card.addEventListener('click', () => {
     console.log(headLine)
 
     

@@ -13,21 +13,21 @@
 
 function Header() {
     const header = document.createElement('div');
-    header.classList.add('header')
-
     const date = document.createElement('span');
-    date.classList.add('date');
-    date.textContent = 'MARCH 28, 2020'
-    header.append(date);
-
     const h1 = document.createElement('h1');
-    h1.textContent = 'Lambda Times';
-    header.append(h1);
-
     const temp = document.createElement('span');
+
+    header.classList.add('header')
+    date.classList.add('date');
     temp.classList.add('temp');
-    temp.textContent = '98°';
+
+    header.append(date);
+    header.append(h1);
     header.append(temp);
+
+    date.textContent = 'MARCH 28, 2020'
+    h1.textContent = 'Lambda Times';
+    temp.textContent = '98°';
 
     return header
 }
