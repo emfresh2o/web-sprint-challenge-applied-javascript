@@ -65,11 +65,14 @@ function ContentMaker(d){
 
     img.src = d.authorPhoto;
 
-    return card;
-}
+    card.addEventListener('click', () => {
+        console.log(d.headLine)
 
-card.addEventListener('click', () => {
-    console.log(headLine)
+    });
+
+    return card;
 
     
-})
+}
+
+
