@@ -89,6 +89,5 @@ function CardMaker(item){
     cards.addEventListener('click', () => {
         console.log(data.headline)
     })
-
     return cards;
 }

@@ -31,7 +31,6 @@ function Header() {
 
     return header
 }
-
 const headCont = document.querySelector('.header-container');
 headCont.append(Header());
 
