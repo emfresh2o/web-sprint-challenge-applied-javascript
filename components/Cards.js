@@ -54,9 +54,7 @@ axios
         2: {headline: "The Hottest New Bootstrap 4 Components Every Developer Needs to Know About", authorPhoto: "./assets/max.jpg", auth...
 */
 
-
 // CARD COMPONENTS!
-
 function CardMaker(item){
 
     // Created Elements

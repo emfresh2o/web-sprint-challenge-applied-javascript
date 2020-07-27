@@ -18,8 +18,7 @@ axios
     const topicData = response.data.topics;
     topicData.forEach( element => {
         entryPoint.appendChild(tab(element))
-})
-   
+    })
 })
 .catch(error => {
     console.log("Alert missing data", error)
