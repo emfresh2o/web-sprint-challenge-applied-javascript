@@ -25,7 +25,7 @@
 
 //used axios to get API from url then used the method `then` to return a promise
 //used the `object.values` method to return the array which elements are the enumerable property values found inside the given object.
-//used `forEach` method to loop through each item in the object, to loop through the array then append the card components.
+//used `forEach` method to loop through each item in the object, to loop through the array and append item to the card components.
 
 
 const cardEntry = document.querySelector('.cards-container');
